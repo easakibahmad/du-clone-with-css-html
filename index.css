@@ -340,7 +340,7 @@ body{
 @media screen and (max-width: 600px) {
 
     .section-one{
-        height: 980px;
+        height: 1050px;
     }
     .sec-one-text{
         font-size: 30px;
@@ -440,7 +440,7 @@ body{
   @media screen and (max-width: 600px) {
 
     .section-two{
-        height: 1030px;
+        height: 1100px;
     }
     
     .sec-two-text{
@@ -532,7 +532,7 @@ body{
 @media screen and (max-width: 600px) {
 
     .section-three{
-        height: 970px;
+        height: 1070px;
     }
     
     .cards-div-sec-three{
