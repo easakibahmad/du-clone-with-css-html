@@ -228,6 +228,15 @@ body{
     background-size: cover;
 }
 
+.section-one a{
+  text-decoration: none;
+  color: white;
+}
+
+.section-one a:hover{
+  text-decoration: underline;
+  color: yellowgreen;
+}
 .sec-one-text{
     text-align: start;
     padding-top: 40px;
