@@ -11,7 +11,7 @@ body{
 /* navbar style */
 .navbar{
     padding-top: 20px; 
-    height: 80px;
+    height: 60px;
     background-color: black; 
     position: sticky;
     top: 0;
@@ -19,7 +19,7 @@ body{
 
 .nav-content{
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 30px;
     padding:10px 20px;
     text-align: center;
@@ -41,34 +41,23 @@ body{
 /*navbar responsive style */
 
 @media screen and (max-width: 900px) {
-    .nav-content{
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        column-gap: 30px;
-        padding:0px 20px;
-        text-align: center;
-    } 
     .nav-content a{
-        font-size: 13px;
+        font-size: 15px;
     } 
   }
 
 @media screen and (max-width: 600px) {
     .nav-content{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        column-gap: 30px;
         padding:0px 20px;
-        text-align: justify;
     } 
     .nav-content a{
         font-size: 12px;
     } 
   }
 
-  @media screen and (max-width: 600px) { 
+  @media screen and (max-width: 500px) { 
     .nav-content a{
-        font-size: 8px;
+        font-size: 9px;
     } 
   }
 
