@@ -458,7 +458,7 @@ body{
 
   /* section three style */
   .section-three{
-    height: 700px;
+    height: 600px;
     width: 100%;
     background-image: url("image3.jpg");
     background-repeat: no-repeat;
@@ -481,7 +481,7 @@ body{
     padding-top: 30px;
     color: white;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 20px;
 }
 .card-three{
@@ -489,7 +489,7 @@ body{
     border-radius: 10px;
 }
 .card-three img{
-    height: 300px;
+    height: 150px;
     width: 100%;
 }
 
@@ -508,38 +508,38 @@ body{
 @media screen and (max-width: 900px) {
 
     .section-three{
-        height: 990px;
+        height: 970px;
     }
     
     .cards-div-sec-three{
         row-gap: 40px;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .card-three img{
-        height: 240px;
-    }
+      height: 130px;
+  }
     
     .card-text-three{
-        font-size: 18px;
+        font-size: 16px;
     }
   }
 
 @media screen and (max-width: 600px) {
 
-    .section-three{
-        height: 1150px;
+      .section-three{
+        height: 1420px;
     }
-    
+
     .cards-div-sec-three{
         row-gap: 40px;
         grid-template-columns: repeat(1, 1fr);
     }
     .card-three img{
-        height: 200px;
+      height: 100px;
     }
-    
+
     .card-text-three{
-        font-size: 16px;
+        font-size: 12px;
     }
     
   } 
