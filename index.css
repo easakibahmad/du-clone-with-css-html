@@ -372,7 +372,15 @@ body{
     background-size: cover;
     padding-bottom: 60px;
 }
+.section-two a{
+  text-decoration: none;
+  color: white;
+}
 
+.section-two a:hover{
+  text-decoration: underline;
+  color: yellowgreen;
+}
 .sec-two-text{
     text-align: start;
     padding-top: 40px;
@@ -390,9 +398,9 @@ body{
     padding-top: 30px;
     color: white;
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     row-gap: 40px;
-    column-gap: 20px;
+    column-gap: 40px;
 }
 .card-two{
     border: 1px solid gold;
@@ -404,7 +412,7 @@ body{
 }
 
 .card-text-two{
-    font-size: 14px;
+    font-size: 20px;
 }
 
 /* section two responsive part */
@@ -412,7 +420,7 @@ body{
 @media screen and (max-width: 900px) {
 
     .section-two{
-        height: 890px;
+        height: 920px;
     }
     
     .sec-two-text{
@@ -420,22 +428,22 @@ body{
     }
     
     .cards-div-sec-two{
-        grid-template-columns: repeat(5, 1fr);
-        column-gap: 15px;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
     }
     .card-two img{
         height: 120px;
     }
     
     .card-text-two{
-        font-size: 12px;
+        font-size: 18px;
     }
   }
 
   @media screen and (max-width: 600px) {
 
     .section-two{
-        height: 1180px;
+        height: 1480px;
     }
     
     .sec-two-text{
@@ -443,15 +451,15 @@ body{
     }
     
     .cards-div-sec-two{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         column-gap: 15px;
     }
     .card-two img{
-        height: 70px;
+        height: 110px;
     }
     
     .card-text-two{
-        font-size: 12px;
+        font-size: 20px;
     }
   }
 
