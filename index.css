@@ -604,7 +604,16 @@ body{
     align-items: center;
     gap: 40px;
     font-size: 25px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
+}
+
+.footer-text{
+  background-color: black;
+  margin-top: 0;
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 12px;
 }
 
 /* responsive style for footer */
